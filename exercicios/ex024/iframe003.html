@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style> 
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        iframe#tela {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quos commodi officia, incidunt distinctio, maiores ipsam est autem nulla provident asperiores fuga officiis harum veritatis nihil rerum modi vero quae.</p>
+
+    <ul>
+        <li><a href="Paginas extras/pagina001.html" target="frame">Primeira página</a></li>
+        <li><a href="Paginas extras/pagina002.html" target="frame">Segunda página</a></li>
+        <li><a href="Paginas extras/pagina003.html" target="frame">Terceira página</a></li>
+        <li><a href="Paginas extras/pag004.html" target="frame">Quarta página?</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, corrupti quas. Quasi assumenda, cumque eos facere, tempore, accusamus aut delectus culpa nihil id eum officia vel corrupti asperiores. Temporibus, unde! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, voluptatum nemo velit magnam perferendis sunt corporis nihil maiores, natus, asperiores optio aperiam doloremque magni suscipit itaque quae quod! Assumenda, voluptatem. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut ipsa impedit nemo nihil saepe nulla porro voluptatibus dolorem ipsum dolores laborum exercitationem quia, placeat, at voluptatum delectus odit pariatur illum!</p>
+
+    <iframe srcdoc="<h1>Escolha uma das opções acima</h1><img src='paginas extras/joia.webp' alt='joinha'>" name="frame" id="tela">
+        <p>infelizmente seu navegador não é compativel com isso.</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, soluta dolor. Soluta placeat eligendi doloribus nisi harum. Aliquid, commodi corrupti quam laboriosam itaque, expedita dignissimos rem numquam dolorum, soluta quia! Lorem ipsum dolor sit amet consectetur adipisicing elit. A ullam officia excepturi voluptates, dolores voluptatibus nemo cupiditate ipsa ipsum commodi? Vel, delectus. Incidunt repellat qui earum animi, reiciendis eos delectus.</p>
+</body>
+</html>
